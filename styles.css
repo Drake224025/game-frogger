@@ -1,0 +1,25 @@
+/* Add styles for the game elements */
+.game-board {
+  width: 600px;
+  height: 400px;
+  border: 2px solid black;
+  position: relative;
+  overflow: hidden;
+}
+.player {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.obstacle {
+  width: 100px;
+  height: 30px;
+  background-color: red;
+  position: absolute;
+  top: 50px;
+  left: 0;
+}
